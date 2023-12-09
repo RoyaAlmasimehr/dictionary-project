@@ -1,19 +1,24 @@
 
 import './App.css';
-import logo from "./shecodelogo.png"
+
 import Dictionary from './Dictionary';
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">
-          <img src={logo} className="App-logo img-fluid" alt="logo" />
-        </header>
+        <header className="App-header">Dictionary</header>
         <main>
-          <Dictionary />
+          <Dictionary  />
         </main>
         <footer className="App-footer">
-          <small>Coded by Roya Almasimehr </small>
+          This project was coded by Roya Almasimehr and is{" "}
+          <a href="https://github.com/RoyaAlmasimehr/dictionary-project">
+            open-sourced on Github
+          </a>{" "}
+          and{" "}
+          <a href="https://dictionary-project200.netlify.app/">
+            hosted on Netlify{" "}
+          </a>
         </footer>
       </div>
     </div>
